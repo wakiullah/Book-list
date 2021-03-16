@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" id="form">
+            <h1>Book Collection App</h1>
+
+            <div class="bookTitle">
+                <p>Book Name</p>
+                <input type="text" name="" placeholder="Please enter a name" id="name">
+                <p id="notBook"></p>
+            </div>
+            <div class="bookWriter bookTitle">
+                <p>Writer</p>
+                <input type="text" name="" placeholder="Please enter writer name" id="writer">
+                <p id="notWriter"></p>
+            </div>
+            <div class="year bookTitle">
+                <p>Buy Year</p>
+                <input type="number" name="" placeholder="Please enter year number" id="year">
+                <p id="notYear"></p>
+            </div>
+            <button id="btn">Add Book</button>
+        </form>
+        <div class="bookList">
+            <table class="bookTable">
+                <thead>
+                    <tr>
+                        <th>Book Name</th>
+                        <th>Writer</th>
+                        <th>Buy Year</th>
+                    </tr>
+                </thead>
+                <tbody id="bookList">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+.container {
+    width: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.bookTitle input {
+    width: 90%;
+    height: 33px;
+    border: 2px solid rgb(207, 207, 207);
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.bookTitle p {
+    text-align: left;
+    padding-left: 41px;
+    margin-top: 5px;
+}
+
+.bookTitle p:first-child {
+    margin-bottom: 13px;
+}
+
+.bookTitle p:last-child {
+    font-size: 16px;
+    font-weight: 100;
+    color: red;
+}
+
+.bookTitle {
+    margin-bottom: 25px;
+}
+
+button#btn {
+    width: 243px;
+    font-size: 19px;
+    height: 42px;
+    background: blanchedalmond;
+    outline: none;
+    border: 1px solid;
+    cursor: pointer;
+    margin-bottom: 34px;
+    margin-top: 15px;
+}
+
+th {
+    padding: 10px 80px;
+}
+
+th {
+    background: rgb(236, 236, 236);
+}
+
+table {
+    border: 1px solid rgb(175, 175, 175)
+}
+
+td {
+    padding: 8px 0px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
